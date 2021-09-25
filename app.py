@@ -12,5 +12,5 @@ def hello():
             total_letters += 1
     print("Number of letters in the word devopsassessment is ", total_letters)
 
-if __name == '__main__':
+if __name__  == '__main__':
     app.run(debug=True, host='0.0.0.0')
